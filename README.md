@@ -1,38 +1,22 @@
 # javascript-hack
 
-###### 자바스크립트의 잡기술을 적는 곳
+###### 자바스크립트로 할 수 있는 잡기술과 알고리즘을 적는 곳
 
 ###### Programmer 풀다가 배운 거 기록할거임
 
-<hr />
+<br/>
 
-### +(string)
+### skill
 
-```javascript
-// 문자를 숫자로 바꿔줌
+잡기술 모음
 
-const string = "100";
-const number = +string; // 100
-```
+- math-floor 소수점 제거
+- string-to-number 문자를 숫자로 변환
 
 <br/>
 
-### ~~(number)
+### algorithm
 
-```javascript
-// 소수점을 없애줌, Math.trunc와 기능은 같음
+알고리즘 모음
 
-const a = 100.1234;
-const b = ~~a; // 100
-```
-
-<br/>
-
-### [...new Set(string)]
-
-```javascript
-// 문자열에서 중복을 제거하는 문제였음
-
-const word = "Hello World haha ha";
-const result = [...new Set(word)].join(""); // "Helo Wrdha";
-```
+- gcd 최대공약수 구하기 유클리드 호제법
